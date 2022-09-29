@@ -68,7 +68,7 @@ class HomeUi() {
                 .padding(start = 10.dp, end = 10.dp)
                 .verticalScroll(rememberScrollState())
         ) {
-            val coroutineScope = rememberCoroutineScope()
+            //val coroutineScope = rememberCoroutineScope()
            // var prayerInfoList =    prayerTimeService.collectPrayerTimes()
             var i = 1;
             for (n in prayerInfoList) {
@@ -100,6 +100,7 @@ class HomeUi() {
                 "asr".uppercase() -> prayerIconId = R.drawable.asr
                 "maghrib".uppercase() -> prayerIconId = R.drawable.magrib
                 "isha".uppercase() -> prayerIconId = R.drawable.isha
+                "sun rise".uppercase() -> prayerIconId = R.drawable.shuruq
             }
         }
         return prayerIconId

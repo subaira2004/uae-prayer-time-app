@@ -1,5 +1,6 @@
 package com.zdev.uaeprayertime.ui.theme
 
+import android.content.res.Resources.Theme
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
